@@ -1,0 +1,16 @@
+[project]
+name = "commit-classifier"
+version = "0.1.0"
+description = "Natural language classifier for commits following https://www.conventionalcommits.org/en/v1.0.0/"
+authors = [
+    {name = "Xnths",email = "jonathascastilhoes@gmail.com"}
+]
+requires-python = ">=3.9,<3.15"
+dependencies = [
+    "spacy>=3.8.0,<3.9.0",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
